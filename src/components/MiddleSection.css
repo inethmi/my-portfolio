@@ -1,0 +1,85 @@
+.middle-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: transparent;
+  opacity: 0; /* Start fully transparent */
+  transition: opacity 1.5s ease-in-out; /* Smooth transition for fade-in */
+}
+
+.middle-section.fade-in {
+  opacity: 1; /* Fully visible */
+}
+
+.white-box {
+  background-color: white;
+  padding: 2rem 4rem;
+  border-radius: 2rem; /* Rounded corners */
+  text-align: center;
+  box-shadow: 0 6px 15px rgb(0, 0, 53); /* Soft shadow */
+}
+
+.name {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #1d3557;
+  line-height: 0.2;
+}
+
+.title {
+  font-size: 2rem;
+  color: #1d3557;
+  margin: 0.5rem 0;
+  line-height: 0.6;
+}
+
+.description {
+  font-size: 1rem;
+  color: #457b9d;
+  line-height: 0.7;
+  opacity: 0; /* Initially hidden */
+  transform: translateY(10px); /* Slight downward offset for animation */
+  transition: opacity 1.5s ease, transform 1.5s ease; /* Smooth fade-in and slide-up effect */
+}
+
+.middle-section.fade-in .description {
+  opacity: 1; /* Fully visible */
+  transform: translateY(0); /* Reset offset */
+}
+
+.social-links {
+  display: flex;
+  justify-content: center;
+  gap: 2rem; /* Larger gap for better spacing */
+  margin: 1.5rem 0 0;
+  background-color: #f1f3f5; /* Light background as per design */
+  padding: 1.5rem 3rem;
+  border-radius: 0.5rem;
+}
+
+.social-links a {
+  font-size: 3rem; /* Larger icon size to match the UI */
+  color: #1d3557;
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.social-links a:hover {
+  color: #457b9d;
+  transform: scale(1.3); /* Slight zoom effect */
+}
+
+.cv-link {
+  font-size: 1rem;
+  color: #1d3557;
+  text-decoration: none;
+  margin-top: 1rem; /* Space below white box */
+  transition: color 0.3s ease;
+}
+
+.cv-link:hover {
+  color: #457b9d;
+}

@@ -1,0 +1,35 @@
+.navbar {
+  position: absolute;
+  top: 1rem;
+  right: 5rem;
+  z-index: 1000; /* Keeps the navbar above other content */
+  opacity: 0; /* Initially invisible */
+  transition: opacity 1.5s ease-in-out; /* Smooth fade-in effect */
+}
+
+.navbar.visible {
+  opacity: 1; /* Fully visible */
+}
+
+.nav-links {
+  display: flex;
+  gap: 2rem; /* Spacing between links */
+  list-style: none; /* Removes bullet points */
+}
+
+.nav-links a {
+  text-decoration: none; /* Removes underline */
+  font-size: 1.2rem; /* Increased font size for better visibility */
+  font-weight: 500;
+  color: #1d3557; /* Dark blue */
+  transition: color 0.3s ease, font-weight 0.3s ease; /* Smooth transition */
+}
+
+.nav-links a:hover {
+  color: #457b9d; /* Light blue hover effect */
+}
+
+.nav-links .active {
+  font-weight: bold; /* Highlights the active link */
+  color: black; /* Black for active link */
+}

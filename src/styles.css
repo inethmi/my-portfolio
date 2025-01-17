@@ -1,0 +1,34 @@
+/* Reset some default margins and paddings */
+body,
+h1,
+p {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Set a light background color and center the content */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #eaf4fc; /* Light blue shade */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* App container */
+.App {
+  text-align: center;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #ffffff; /* White background */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+/* Styling for the main heading */
+h1 {
+  font-size: 24px;
+  color: #003366; /* Dark blue */
+  margin-bottom: 20px;
+}

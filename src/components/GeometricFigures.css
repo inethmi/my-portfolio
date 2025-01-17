@@ -1,0 +1,223 @@
+/* Main container for the geometric figures */
+.container {
+  max-width: 2000px;
+  margin: 50px;
+  padding: 25px 0px 0px 0px;
+  min-height: 700px;
+}
+
+/* Square styling */
+#Square1,
+#Square3 {
+  background-color: rgb(0, 0, 53, 0.9);
+  border: solid;
+  border-radius: 0px;
+  border-color: white;
+  position: relative;
+}
+
+#Square2 {
+  background-color: #add8e6;
+  border: solid;
+  border-top-right-radius: 40px;
+  border-color: white;
+  position: relative;
+}
+
+#Square3 {
+  background-color: #add8e6;
+  border: solid;
+  border-bottom-left-radius: 40px;
+  border-color: white;
+  position: relative;
+}
+
+#Square4 {
+  background-color: rgb(51, 51, 93, 0.75);
+  border: solid;
+  border-radius: 0px;
+  border-color: white;
+  position: relative;
+}
+
+/* Figures positioning */
+.figure,
+.figure_2 {
+  width: 150px;
+  height: 150px;
+}
+
+.figure {
+  float: left;
+}
+
+.figure_2 {
+  float: right;
+}
+
+/* Layout structure */
+.try {
+  display: flex;
+  margin: 0px 0px 0px 10px;
+}
+
+.why {
+  display: flex;
+  margin: 0px 0px 0px 1080px;
+}
+
+/* Inner square styles */
+#square1_1 {
+  width: 100px;
+  height: 100px;
+  background: rgb(173, 216, 230, 0.5);
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+#square1_1_1 {
+  width: 90px;
+  height: 90px;
+  background-color: rgb(51, 51, 93, 0.75);
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+/* ✅ Bottom-left squares correctly filled */
+#square1_2 {
+  width: 90px;
+  height: 90px;
+  background-color: #33335d;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+/* Circle styles */
+#circle1 {
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  background: rgb(0, 0, 53, 0.5);
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+#circle1_1 {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: rgb(51, 51, 93, 0.75);
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+#circle1_1_1 {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background-color: rgb(0, 0, 53, 0.75);
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+/* ✅ Ensuring circles inside bottom-left square (Square3) */
+#circle2,
+#circle3 {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background-color: rgb(51, 51, 93, 0.75);
+  position: absolute;
+}
+
+#circle2 {
+  top: 4px;
+  left: 4px;
+}
+
+#circle3 {
+  bottom: 4px;
+  right: 4px;
+}
+
+/* ✅ Center circle inside Square3 */
+#circle4 {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  background: rgb(0, 0, 53, 0.9);
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+}
+
+#circle4_1 {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background: rgb(173, 216, 230, 0.5);
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+}
+
+/* Triangle styles */
+#Triangle1 {
+  width: 0;
+  height: 0;
+  border-bottom: 151px solid #add8e6;
+  border-right: 140px solid transparent;
+}
+
+#Triangle1_1 {
+  width: 0;
+  height: 0;
+  border-bottom: 110px solid rgb(0, 0, 53, 0.9);
+  border-right: 100px solid transparent;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+/* Small nested squares inside Square4 */
+#square4_1 {
+  width: 77px;
+  height: 77px;
+  background-color: rgb(0, 0, 53, 0.733);
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+#square4_1_1 {
+  width: 62px;
+  height: 62px;
+  background: #add8e6;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+/* Animation effects */
+.anim {
+  opacity: 0;
+  animation: fadein 1.5s linear forwards;
+}
+
+@keyframes fadein {
+  100% {
+    opacity: 1;
+  }
+}
