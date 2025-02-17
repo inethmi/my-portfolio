@@ -102,7 +102,7 @@ const MiddleSection = () => {
 
         
         <a
-          href="/cv.pdf"
+          href={`${process.env.PUBLIC_URL}/cv.pdf`}
           className="cv-link"
           target="_blank"
           rel="noopener noreferrer"

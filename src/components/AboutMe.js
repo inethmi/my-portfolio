@@ -6,10 +6,7 @@ const AboutMe = () => {
     <section id="about" className="about-me">
       {/* Photo Container (Left Side) */}
       <div className="photo-container">
-        <img
-          src="/inuri.jpg" 
-          alt="Inuri Ediriveera"
-        />
+        <img src={`${process.env.PUBLIC_URL}/inuri.jpg`} alt="Inuri Ediriveera" />
       </div>
 
       {/* About Details (Right Side) */}
