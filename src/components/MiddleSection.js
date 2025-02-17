@@ -100,7 +100,7 @@ const MiddleSection = () => {
           </a>
         </div>
 
-        {/* CV Link */}
+        
         <a
           href="/cv.pdf"
           className="cv-link"

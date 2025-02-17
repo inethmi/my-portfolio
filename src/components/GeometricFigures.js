@@ -23,7 +23,6 @@ const GeometricFigures = () => {
 
       <div className="try">
         <div id="Square3" className="figure anim">
-          {/* ✅ Added missing circle patterns inside Square3 */}
           <div id="circle2" className="identical_2 anim"></div>
           <div id="circle3" className="identical_2 anim"></div>
           <div id="circle4" className="anim">
@@ -61,7 +60,6 @@ const GeometricFigures = () => {
 
       <div className="why">
         <div id="Square3" className="figure_2 anim">
-          {/* ✅ Added missing circle patterns inside Square3 in the second set */}
           <div id="circle2" className="identical_2 anim"></div>
           <div id="circle3" className="identical_2 anim"></div>
           <div id="circle4" className="anim">

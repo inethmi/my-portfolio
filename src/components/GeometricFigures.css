@@ -40,7 +40,7 @@
   position: relative;
 }
 
-/* Figures positioning */
+/* Figures positioning - 2 main squares */
 .figure,
 .figure_2 {
   width: 150px;
@@ -126,7 +126,7 @@
   left: 0;
 }
 
-/* ✅ Ensuring circles inside bottom-left square (Square3) */
+/* circles inside bottom-left square (Square3) */
 #circle2,
 #circle3 {
   width: 70px;
@@ -146,7 +146,7 @@
   right: 4px;
 }
 
-/* ✅ Center circle inside Square3 */
+/* Center circle inside Square3 */
 #circle4 {
   width: 120px;
   height: 120px;

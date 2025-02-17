@@ -18,7 +18,7 @@
 .white-box {
   background-color: white;
   padding: 2rem 4rem;
-  border-radius: 2rem; /* Rounded corners */
+  border-radius: 2rem; 
   text-align: center;
   box-shadow: 0 6px 15px rgb(0, 0, 53); /* Soft shadow */
 }
