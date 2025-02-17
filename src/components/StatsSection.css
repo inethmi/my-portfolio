@@ -1,0 +1,43 @@
+.stats-section {
+  display: flex;
+  flex-direction: row; /* Horizontal layout */
+  align-items: center; /* Vertically center the content */
+  justify-content: center; /* Space between photo and details */
+  position: absolute;
+  top: 1200px; /* Adjust as needed */
+  left: 0; /* Start from the left edge */
+  width: 100%; /* Full width of the page */
+  padding: 4rem 2rem;
+}
+
+.stats-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  max-width: 1200px;
+  width: 100%;
+  flex-wrap: wrap; /* Wrap stats on smaller screens */
+}
+
+.stat {
+  text-align: center;
+  margin: 1rem;
+  padding: 1.5rem;
+  background-color:#E6F3F8 ;
+  border-radius: 1rem;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  flex: 1 1 200px; /* Flexible sizing for responsiveness */
+  
+  border-bottom: solid 5px #1d3557;
+}
+
+.stat h2 {
+  font-size: 2.5rem;
+  color: #1d3557;
+  margin-bottom: 0.5rem;
+}
+
+.stat p {
+  font-size: 1.1rem;
+  color: #457b9d;
+}

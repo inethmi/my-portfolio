@@ -3,6 +3,8 @@ import GeometricFigures from "./components/GeometricFigures";
 import MiddleSection from "./components/MiddleSection";
 import Navbar from "./components/Navbar";
 import AboutMe from "./components/AboutMe";
+import StatsSection from "./components/StatsSection"; 
+
 
 function App() {
   return (
@@ -18,6 +20,9 @@ function App() {
 
       {/* AboutMe Component */}
       <AboutMe />
+
+      {/* StatsSection Component */}
+      <StatsSection />
     </div>
   );
 }
