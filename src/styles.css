@@ -9,7 +9,7 @@ p {
 
 /* Set a light background color and center the content */
 body {
-  font-family: Arial, sans-serif;
+  font-family: "Josefin Sans", serif;
   background-color: #eaf4fc; /* Light blue shade */
   display: flex;
   justify-content: center;
