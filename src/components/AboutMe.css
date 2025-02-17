@@ -31,8 +31,8 @@
 }
 
 .photo-container {
-  padding-left: 10rem;
-  max-width: 800px; /* Limit the width of the photo container */
+
+  max-width: 600px; /* Limit the width of the photo container */
   
 
 
@@ -40,14 +40,16 @@
 
 .photo-container img {
   width: 50%; 
-  height: 60%; 
+  height: 70%; 
   border-radius: 19%; /* Rounded corners for the photo */
+  margin-top: 50px;
   
 }
 
 .about-details {
-  padding-right: 200px;
-  max-width: 700px;
+  max-width: 900px;
+  padding-left:20px;
+  padding-right: 20px;
 
 }
 
@@ -55,6 +57,7 @@
   font-size: 1.1rem;
   color: #333;
   margin-bottom: 1rem;
+
 }
 
 .about-details strong {

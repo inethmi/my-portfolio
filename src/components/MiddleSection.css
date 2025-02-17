@@ -56,13 +56,13 @@
   justify-content: center;
   gap: 2rem; /* Larger gap for better spacing */
   margin: 1.5rem 0 0;
-  background-color: #f1f3f5; /* Light background as per design */
+  background-color: #f1f3f5; 
   padding: 1.5rem 3rem;
   border-radius: 0.5rem;
 }
 
 .social-links a {
-  font-size: 3rem; /* Larger icon size to match the UI */
+  font-size: 3rem; 
   color: #1d3557;
   transition: color 0.3s ease, transform 0.3s ease;
 }
