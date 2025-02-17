@@ -1,0 +1,62 @@
+.about-me {
+  display: flex;
+  flex-direction: row; /* Horizontal layout */
+  align-items: center; /* Vertically center the content */
+  justify-content: center; /* Space between photo and details */
+  position: absolute;
+  top: 730px; /* Adjust as needed */
+  left: 0; /* Start from the left edge */
+  width: 100%; /* Full width of the page */
+
+  text-align: left; /* Align text to the left */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Optional shadow */
+  padding-bottom: 2rem;
+}
+
+.about-me h2 {
+  font-size: 30px;
+  text-decoration: none;
+  color: #1d3557;
+  margin-bottom: 1rem;
+  text-align: center;
+
+}
+
+.about-me h4 {
+  text-align: center;
+  font-size: 1.5rem;
+  color: #457b9d;
+  margin-bottom: 2rem;
+  margin-top: 0;
+}
+
+.photo-container {
+  padding-left: 10rem;
+  max-width: 800px; /* Limit the width of the photo container */
+  
+
+
+}
+
+.photo-container img {
+  width: 50%; 
+  height: 60%; 
+  border-radius: 19%; /* Rounded corners for the photo */
+  
+}
+
+.about-details {
+  padding-right: 200px;
+  max-width: 700px;
+
+}
+
+.about-details p {
+  font-size: 1.1rem;
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+.about-details strong {
+  color: #1d3557;
+}
