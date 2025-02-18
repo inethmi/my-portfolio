@@ -4,6 +4,7 @@ import MiddleSection from "./components/MiddleSection";
 import Navbar from "./components/Navbar";
 import AboutMe from "./components/AboutMe";
 import StatsSection from "./components/StatsSection"; 
+import SkillsSection from "./components/SkillsSection";
 
 
 function App() {
@@ -23,6 +24,10 @@ function App() {
 
       {/* StatsSection Component */}
       <StatsSection />
+
+      {/* SkillsSection Component */}
+      <SkillsSection />
+
     </div>
   );
 }
